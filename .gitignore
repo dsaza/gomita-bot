@@ -1,0 +1,27 @@
+# Logs
+
+logs
+_.log
+npm-debug.log_
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Module directory
+
+node_modules/
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Editor directories and files
+
+.DS_Store
