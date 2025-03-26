@@ -3,6 +3,7 @@ import { Telegraf } from 'telegraf';
 import { message } from 'telegraf/filters';
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
+console.log('Starting bot')
 
 bot.start((ctx) => ctx.reply('Welcome'))
 bot.help((ctx) => ctx.reply('Send me a sticker'))
